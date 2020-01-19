@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.margin {
+    margin-top: 5%;
+} 
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: -1px -1px 35px -4px rgba(0,0,0,0.75);
+}
+
+input[type="text"] {
+    outline: 0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+a {
+    position: fixed;
+    top: 2%;
+    right: 5%;
+    text-decoration: none;
+}
